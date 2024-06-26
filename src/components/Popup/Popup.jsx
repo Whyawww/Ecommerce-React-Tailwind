@@ -40,10 +40,10 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                   />
                 </label>
                 <label className="block mb-2">
-                  <span className="block text-sm font-medium">Tipe HP</span>
+                  <span className="block text-sm font-medium">Type Handphone</span>
                   <input
                     type="text"
-                    placeholder="Tipe HP"
+                    placeholder="Type Handphone"
                     className="w-full rounded-full border bg-primary/70 text-black px-4 py-2 mb-2"
                   />
                 </label>
@@ -51,13 +51,13 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                   <span className="block text-sm font-medium">Color</span>
                   <input
                     type="text"
-                    placeholder="Warna"
+                    placeholder="Color"
                     className="w-full rounded-full border bg-primary/70 text-black px-4 py-2"
                   />
                 </label>
                 <div className="flex justify-center">
                   <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 text-white py-2 px-6 rounded-full">
-                    Pesan Sekarang
+                    Order Now
                   </button>
                 </div>
               </div>
